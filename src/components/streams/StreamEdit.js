@@ -1,6 +1,7 @@
 import React from 'react'
 
-function StreamEdit() {
+function StreamEdit(props) {
+  console.log('id', props.match.params.id);
   return (
     <div>
       StreamEdit
